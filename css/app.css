@@ -56,3 +56,23 @@ figure > img {
 .row > [class^='col'] {
     padding: 20px;
 }
+
+.card-marca {
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.card-name {
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.card-price {
+    color: red;
+}
+
+span.strike {
+    text-decoration: line-through;
+    color: #1A1A1A;
+}
