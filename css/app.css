@@ -12,6 +12,7 @@ main {
 
 footer {
     background-color: #1A1A1A;
+    color: white;
 }
 
 ul,
@@ -75,10 +76,17 @@ figure > img {
      padding: 0 10px;
 }
 
+.row-footer {
+
+}
 
 
 .col-4 {
     flex-basis: calc((100% / 12) * 4);
+}
+
+.col-8 {
+    flex-basis: calc((100% / 12) * 8);
 }
 
 .row > [class^='col'] {
@@ -165,3 +173,16 @@ span.strike {
 .card:hover .second-image {
     opacity: 1;
 } 
+
+h4 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.col-8 {
+    line-height: 30px;
+}
+
+.col-4 {
+    text-align: center;
+}
