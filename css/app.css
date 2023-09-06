@@ -57,23 +57,39 @@ figure > img {
     padding: 20px;
 }
 
+.card-image {
+    position: relative;
+}
+
 .card-marca-description {
     font-size: 10px;
     font-weight: 100;
 }
 
 .card-name-description {
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 600;
     text-transform: uppercase;
 }
 
-.card-price-description{
+.card-price-description {
     color: red;
 }
 
 span.strike {
     text-decoration: line-through;
     color: #1A1A1A;
+}
+
+.heart-icon {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 20px ;
+    right: 0;
+    display: block;
+    padding: 10px;
+    text-align: center;
 }
 
