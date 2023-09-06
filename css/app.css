@@ -93,3 +93,32 @@ span.strike {
     text-align: center;
 }
 
+
+.banner-image {
+    
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+}
+
+.banner-image > span {
+    color: white;
+    font-size: 13px;
+    position: relative;
+    left: 0;
+    font-weight: 500;
+    height: 20px;
+    padding: 3px;
+}
+
+.discount-icon {
+    background-color: red;
+    width: 10px;
+
+}
+
+.mission-card {
+    background-color: green;
+    position: relative;
+    left: 4px;
+}
