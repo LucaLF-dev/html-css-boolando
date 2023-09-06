@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 
-header {
-    min-height: 80px;
-}
+
 
 main {
     padding: 40px;
@@ -30,6 +28,12 @@ img {
     max-width: 100%;
 }
 
+.logo {
+    max-width: 100%;
+    display: block;
+    
+}
+
 .card {
     position: relative;
 }
@@ -41,6 +45,7 @@ figure > img {
 
 .main-header {
     background-color: #FF6900;
+    padding: 10px 0;
 }
 
 .section {
@@ -56,13 +61,21 @@ figure > img {
     display: flex;
     flex-wrap: wrap;
 }
+.row-nav {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     padding: 0 10px;
+}
+
+
 
 .col-4 {
     flex-basis: calc((100% / 12) * 4);
 }
 
 .row > [class^='col'] {
-    padding: 20px;
+    padding: 10px;
 }
 
 .card-image {
@@ -114,7 +127,7 @@ span.strike {
 .banner-image > span {
     color: white;
     font-size: 13px;
-    position: relative;
+    
     left: 0;
     font-weight: 500;
     height: 20px;
