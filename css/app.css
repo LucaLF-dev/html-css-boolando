@@ -8,6 +8,10 @@ header {
     min-height: 80px;
 }
 
+main {
+    padding: 40px;
+}
+
 footer {
     background-color: #1A1A1A;
 }
@@ -91,14 +95,16 @@ span.strike {
     display: block;
     padding: 10px;
     text-align: center;
+    z-index: 1;
 }
 
 
 .banner-image {
     
-    position: absolute;
+    position: relative;
     width: 100%;
     bottom: 30px;
+    z-index: 2;
 }
 
 .banner-image > span {
@@ -117,8 +123,17 @@ span.strike {
 
 }
 
-.mission-card {
+.mission-icon {
     background-color: green;
     position: relative;
     left: 4px;
 }
+
+
+.second-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
