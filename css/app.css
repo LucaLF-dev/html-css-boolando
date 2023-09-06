@@ -138,3 +138,6 @@ span.strike {
     z-index: 0;
 }
 
+.card:hover .second-image {
+    opacity: 1;
+}
