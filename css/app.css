@@ -22,6 +22,7 @@ menu {
 
 a {
     text-decoration: none;
+    color: currentColor;
 }
 
 img {
@@ -46,6 +47,12 @@ figure > img {
 .main-header {
     background-color: #FF6900;
     padding: 10px 0;
+    color: white;
+    font-size: 20px;
+}
+
+.items-center {
+    align-items: center;
 }
 
 .section {
